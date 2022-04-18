@@ -1,0 +1,13 @@
+
+# platform :ios, '9.0'
+
+target 'ZhihuDemo' do
+  use_frameworks!
+  pod 'SnapKit', '~> 5.6.0'
+  pod 'ObjectMapper'
+  pod 'Kingfisher', '~> 7.0'
+  pod 'Moya', '~> 15.0'
+  pod "PromiseKit", "~> 6.8"
+  pod 'ProgressHUD'
+
+end
